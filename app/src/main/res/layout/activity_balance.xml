@@ -17,29 +17,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.297" />
 
-    <Button
-        android:id="@+id/read_card"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_read"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
-
-    <Button
-        android:id="@+id/btn_sign"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:enabled="false"
-        android:text="Sign"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
-
     <TextView
         android:id="@+id/txt_wallet"
         android:layout_width="wrap_content"
@@ -61,12 +38,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.424" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="232dp"
-        android:layout_height="191dp"
-        app:srcCompat="@drawable/avatar"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="111dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="43dp"
+        tools:text="2,598.35" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:text="Pension Balance" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
